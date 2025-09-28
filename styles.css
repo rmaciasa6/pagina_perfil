@@ -77,3 +77,10 @@ footer {
     color: #777;
     margin-top: 40px;
 }
+
+.foto-perfil {
+  width: 150px;       /* ancho fijo */
+  height: auto;       /* mantiene proporción */
+  border-radius: 8px; /* opcional: esquinas redondeadas */
+  object-fit: cover;  /* asegura que la imagen se ajuste bien */
+}
