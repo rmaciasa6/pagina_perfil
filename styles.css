@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007acc;
+}
+header h1 {
+    margin: 15px 0 5px;
+    font-size: 2.2em;
+    color: #007acc;
+}
+header p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 0;
+}
+section {
+    margin-bottom: 25px;
+}
+section h2 {
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    color: #007acc;
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin-bottom: 8px;
+}
+.contact-info {
+    background-color: #e7f0fa;
+    padding: 15px;
+    border-radius: 6px;
+}
+.contact-info p {
+    margin: 5px 0;
+}
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.skills-table th, .skills-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.skills-table th {
+    background-color: #007acc;
+    color: white;
+}
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 40px;
+}
