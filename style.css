@@ -39,3 +39,11 @@ footer {
   background: #2c3e50;
   color: white;
 }
+.foto-perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;   /* hace la foto circular */
+  border: 4px solid white;
+  margin-bottom: 1rem;
+  object-fit: cover;    /* ajusta la imagen al marco */
+}
